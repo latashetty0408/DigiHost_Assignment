@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --orange:#ff7800;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+}
+/* *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+} */
+
+/* body{
+    background:#eee;
+} */ 
+.part_1{
+    background-color: #ebe6e6;
+}
+/* .img_2{
+    height: 20rem;
+} */
+.img_3{
+    height: 42.5rem;
+}
+.img-1:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+.button{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.part_3{
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+.content{
+    display: inline-block;
+}
+.btn{
+    width: 150px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img_3 {
+        height: auto;
+
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .img_3 {
+        height: auto;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .img_3 {
+    height: 28rem;
+
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .img_3 {
+    height: 36rem;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .img_3 {
+    height: 42.5rem;
+
+    }
+  }
