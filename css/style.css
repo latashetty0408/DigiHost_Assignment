@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-:root{
-    --outline-hover:.2rem solid var(--black);
-} 
 .part_1{
     background-color: #ebe6e6;
 }
@@ -11,10 +8,6 @@
 } */
 .img_3{
     height: 42.5rem;
-}
-.img-1:hover{
-    outline: var(--outline-hover);
-    outline-offset: 0rem;
 }
 .button{
     width: 250px;
